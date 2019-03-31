@@ -10,7 +10,7 @@ import { setUsername } from '../actions';
 class App extends Component {
   componentWillMount() {
     // const username = prompt("What's your name?");
-    const username = "marcelo";
+    const username = "maarcelo";
     this.props.setUsername(username);
   }
 

@@ -7,12 +7,17 @@
   padding: 0 0 0 3%;
 }
 
-.message-list__message {
-  padding: 1% 0 1% 0;
+.message-list__messages {
+  overflow: scroll;
+  height: 10vh;
+  flex-grow: 1;
+
+  .message-list__message {
+    padding: 1% 0 1% 0;
+  }
 }
 
 .message-list__form {
   padding: 3% 0 3% 0;
-  margin-top: auto;
   display: flex;
 }
